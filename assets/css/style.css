@@ -704,7 +704,6 @@ p {
   .about-image::before {
     position: absolute;
     content: '';
-    background-image: url(../images/about/dots.jpg);
     background-position: center center;
     background-size: 100%;
     width: 375px;
@@ -818,10 +817,11 @@ p {
 @media (max-width: 767px) {
   .services-area {
     padding-top: 75px;
-    padding-bottom: 80px; } }
+    padding-bottom: 80px;
+ } }
 
 .single-services {
-  padding: 50px 30px;
+  padding: 20px 20px;
   background-color: #fff;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -933,9 +933,7 @@ p {
         6.TEAM css 
 ===========================*/
 @media (max-width: 767px) {
-  .team-area {
-    padding-top: px;
-    padding-bottom: 80px; } }
+  .team-area {} }
 
 .single-team .team-image img {
   width: 100%; }
@@ -1000,118 +998,15 @@ p {
 
 .single-team:hover .team-content {
   background-color: #fff;
-  margin-top: -60px;
+  margin-top: -px;
   -webkit-box-shadow: 0px 6px 16px 0px rgba(235, 54, 86, 0.34);
   -moz-box-shadow: 0px 6px 16px 0px rgba(235, 54, 86, 0.34);
   box-shadow: 0px 6px 16px 0px rgba(235, 54, 86, 0.34); }
   .single-team:hover .team-content .social {
-    margin-top: 25px;
+    margin-top: 20px;
     opacity: 1;
     visibility: visible; }
 
-/*===========================
-      7.TESTIMONIAL css 
-===========================*/
-.testimonial-area {
-  position: relative; }
-  @media (max-width: 767px) {
-    .testimonial-area {
-      padding-top: 80px;
-      padding-bottom: 80px; } }
-  .testimonial-area .shape {
-    position: absolute; }
-    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-      .testimonial-area .shape img {
-        width: 325px; } }
-  .testimonial-area .shape-one {
-    top: 25px;
-    left: 50px; }
-    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-      .testimonial-area .shape-one {
-        left: 20px; } }
-  .testimonial-area .shape-tow {
-    left: 150px;
-    bottom: 50px; }
-    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-      .testimonial-area .shape-tow {
-        left: 70px; } }
-  .testimonial-area .shape-three {
-    right: 85px;
-    bottom: 30px; }
-    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-      .testimonial-area .shape-three {
-        right: 35px; } }
-
-.testimonial-bg {
-  position: relative;
-  z-index: 9; }
-
-.testimonial-active {
-  background-color: #EB3656;
-  padding: 60px 30px; }
-  @media (max-width: 767px) {
-    .testimonial-active {
-      padding: 30px 15px; } }
-
-.single-testimonial .testimonial-image {
-  position: relative;
-  display: inline-block; }
-  .single-testimonial .testimonial-image img {
-    border-radius: 50%; }
-  .single-testimonial .testimonial-image .quota {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: inline-block; }
-    .single-testimonial .testimonial-image .quota i {
-      font-size: 18px;
-      color: #EB3656;
-      width: 30px;
-      height: 30px;
-      line-height: 28px;
-      text-align: center;
-      background-color: #fff;
-      border: 2px solid #EB3656;
-      border-radius: 50%; }
-
-.single-testimonial .testimonial-content p {
-  font-size: 18px;
-  color: #fff;
-  font-family: 'Hind', sans-serif; }
-
-.single-testimonial .testimonial-content .testimonial-name {
-  font-family: 'Barlow', sans-serif;
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600; }
-
-.single-testimonial .testimonial-content .sub-title {
-  font-family: 'Hind', sans-serif;
-  font-size: 14px;
-  color: #fff; }
-
-.testimonial-active .slick-dots {
-  text-align: center;
-  margin-top: 10px; }
-  .testimonial-active .slick-dots li {
-    display: inline-block;
-    margin: 0 5px; }
-    .testimonial-active .slick-dots li button {
-      width: 18px;
-      height: 15px;
-      border-radius: 50px;
-      border: 0;
-      background-color: rgba(255, 255, 255, 0.5);
-      -webkit-transition: all 0.4s ease-out 0s;
-      -moz-transition: all 0.4s ease-out 0s;
-      -ms-transition: all 0.4s ease-out 0s;
-      -o-transition: all 0.4s ease-out 0s;
-      transition: all 0.4s ease-out 0s;
-      font-size: 0;
-      cursor: pointer; }
-    .testimonial-active .slick-dots li.slick-active button {
-      background-color: #fff;
-      width: 25px; }
 
 /*===========================
        8.CONTACT css 
